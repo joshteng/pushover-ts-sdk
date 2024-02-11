@@ -1,0 +1,29 @@
+{
+  "name": "pushover-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "source": "./src/index.ts",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist/**"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "example": "dotenv ts-node examples/sendNotification.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "dotenv-cli": "^7.2.1",
+    "ts-node": "^10.9.2",
+    "tsup": "^6.7.0",
+    "typescript": "^5.3.3"
+  }
+}
