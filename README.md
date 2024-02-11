@@ -1,6 +1,7 @@
 # Pushover TS SDK
 
 This SDK is meant for use with https://pushover.net to send push notifications
+https://www.npmjs.com/package/pushover-ts
 
 ## Usage
 ```sh
